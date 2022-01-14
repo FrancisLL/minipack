@@ -1,4 +1,5 @@
+import { NAME } from './config.js'
+import { greeting  } from "./greeting.js";
 
-import { greeting  } from "./greeting";
-
-document.write(greeting('minipack'))
+const log = greeting(`minipack ${NAME}`)
+document.write(log)
